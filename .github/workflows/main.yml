@@ -17,5 +17,4 @@ jobs:
 
       - name: Run Docker container
         run: |
-          docker run --network=host --name=9hits 9hitste/appv5 /nh.sh --token=5a313b569e81ef8082d28c53ecf8e47a --system-session --ex-proxy-sessions=10 --allow-crypto=no --session-note=9hits-pool --note=my-laptop --hide-browser
-
+          docker run --network=host --name=9hits 9hitste/appv5 /nh.sh --token=5a313b569e81ef8082d28c53ecf8e47a --system-session --ex-proxy-sessions=10 --allow-crypto=no --session-note=9hits-pool --note=my-laptop
